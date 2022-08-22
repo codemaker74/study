@@ -5,8 +5,7 @@ namespace ConsoleApp1
     class Program
     {
         static void Main(string[] args)
-        {
-            //실행 => Ctrl + F5
+        { //실행 => Ctrl + F5
             Console.Write("Hello ");
             Console.WriteLine("World!");
             Console.Write("이름을 입력하세요: ");
