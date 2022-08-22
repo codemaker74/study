@@ -5,8 +5,7 @@ namespace ConsoleApp1
     class Program
     {
         static void Main(string[] args)
-        {
-            //실행 => Ctrl + F5
+        { //실행 => Ctrl + F5
 
             //#날짜와 시간형식 지정
             string max = String.Format("0x{0:X} {0:E} {0:N}", Int64.MaxValue);
