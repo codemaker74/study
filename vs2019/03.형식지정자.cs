@@ -5,11 +5,8 @@ namespace ConsoleApp1
     class Program
     {
         static void Main(string[] args)
-        {
-            //실행 => Ctrl + F5
-
+        { //실행 => Ctrl + F5
             Console.Clear();
-
             Console.WriteLine("Standard Numeric Format Specifiers");
             Console.WriteLine(
                 "(C) Currency: . . . . . . . . {0:C}\n" +
@@ -50,8 +47,6 @@ namespace ConsoleApp1
             Console.WriteLine("{0:#,#.##;(#,#.##);zero}", 1234.567);
             Console.WriteLine("{0:#,#.##;(#,#.##);zero}", -1234.567);
             Console.WriteLine("{0:#,#.##;(#,#.##);zero}", 0);
-
-
 
 
             float flt = 1F / 3;
