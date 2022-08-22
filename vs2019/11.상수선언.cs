@@ -1,7 +1,7 @@
 using System; 
 
 namespace ConsoleApp1
-{//실행 => Ctrl + F5
+{ //실행 => Ctrl + F5
     class ConstEx
     {
         public const int number = 3;
