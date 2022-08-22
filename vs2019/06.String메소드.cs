@@ -5,10 +5,7 @@ namespace ConsoleApp1
     class Program
     {
         static void Main(string[] args)
-        {
-            //실행 => Ctrl + F5
-
-
+        { //실행 => Ctrl + F5
             string s = " Hello, World! ";
             string t;
 
