@@ -5,8 +5,7 @@ namespace ConsoleApp1
     class Program
     {
         static void Main(string[] args)
-        {
-            //실행 => Ctrl + F5
+        { //실행 => Ctrl + F5
 
             //#산술 연산자
             Console.WriteLine("정수의 계산");
