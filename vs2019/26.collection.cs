@@ -41,6 +41,30 @@ namespace ConsoleApp1
 
             a1.RemoveAt(3);
             PrintValues1(a1);
+
+            //#Array와 비교
+            List<string> lstNames = new List<string>();
+            lstNames.Add("dog");
+            lstNames.Add("cow");
+            lstNames.Add("rabbit");
+            lstNames.Add("goat");
+            lstNames.Add("sheep");
+            lstNames.Sort();
+            foreach (string s in lstNames)
+                Console.Write(s + " ");
+            Console.WriteLine();
+
+            //Array arrNames = new Array(100);
+            string[] arrNames = new string[100];
+            arrNames[0] = "dog";
+            arrNames[1] = "cow";
+            arrNames[2] = "rabbit";
+            arrNames[3] = "goat";
+            arrNames[4] = "sheep";
+            Array.Sort(arrNames);
+            foreach (string s in lstNames)
+                Console.Write(s + " ");
+            Console.WriteLine();
         }
 
         //ArrayList 관련...
@@ -75,15 +99,15 @@ Print Values in ArrayList
 Print Values in ArrayList
   Count = 10
   Capacity = 16
-  23  19  54  17  58  85  53  82  74  35
+  62  32  37  42  85  77  15  4  19  75
 Print Values in ArrayList
   Count = 10
   Capacity = 16
-  17  19  23  35  53  54  58  74  82  85
+  4  15  19  32  37  42  62  75  77  85
 Print Values in ArrayList
   Count = 9
   Capacity = 16
-  17  19  23  53  54  58  74  82  85
+  4  15  19  37  42  62  75  77  85
 
 
 
@@ -94,14 +118,16 @@ Print Values in List<int>
 Print Values in List<int>
   Count = 10
   Capacity = 16
-  43  97  50  7  64  51  14  76  95  22
+  35  66  38  37  37  87  55  15  76  85
 Print Values in List<int>
   Count = 10
   Capacity = 16
-  7  14  22  43  50  51  64  76  95  97
+  15  35  37  37  38  55  66  76  85  87
 Print Values in List<int>
   Count = 9
   Capacity = 16
-  7  14  22  50  51  64  76  95  97
+  15  35  37  38  55  66  76  85  87
+cow dog goat rabbit sheep
+cow dog goat rabbit sheep
 계속하려면 아무 키나 누르십시오 . . .
  */
