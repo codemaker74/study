@@ -15,8 +15,8 @@ https://serzhul.io/REACT/react-life-cycle(%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%83%9D%
 "shouldComponentUpdate" prorp나 state가 변경될때 호출,
 
 ***
-001 .jsx에 html 적용하기
-002 .jsx에 css 적용하기
+001 .jsx에 html 적용하기   
+002 .jsx에 css 적용하기    
 003 Component 사용하기
 004 생명주기 함수 render() 사용하기
 005 생명주기 함수 constructor(props) 사용하기
