@@ -21,4 +21,5 @@ class R006_LifecycleEx extends Component {
     }
 }
 
+
 export default R006_LifecycleEx;
