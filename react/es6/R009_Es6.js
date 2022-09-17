@@ -28,4 +28,5 @@ class R009_Es6 extends Component {
         )
     }
 }
+
 export default R009_Es6;
