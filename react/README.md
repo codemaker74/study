@@ -1,8 +1,8 @@
 
 함! 리액트 해볼까나 ~ ~ ~
 
-
-# React life cycle ?
+# lifecycle 폴더
+#React life cycle ?
 https://serzhul.io/REACT/react-life-cycle(%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%83%9D%EB%AA%85-%EC%A3%BC%EA%B8%B0)
 
 #생명주기 - 생성
