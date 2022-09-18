@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 class R027_ComponentClass extends Component {
   constructor (props) {
     super(props);
