@@ -13,6 +13,10 @@ import R026_ForceUpdate from './R026_ForceUpdate';
 import R027_ComponentClass from './R027_ComponentClass';
 import R028_PureComponentClass from './R028_PureComponentClass';
 import R029_ShallowEqual from './R029_ShallowEqual';
+import R030_FunctionComponent from './R030_FunctionComponent';
+import R031_ReactHook from './R031_ReactHook';
+import R032_Fragments from './R032_Fragments';
+import R033_ReturnMap from './R033_ReturnMap';
 
 function App() {
   return (
@@ -40,9 +44,13 @@ function App() {
       <R026_ForceUpdate></R026_ForceUpdate>
       <R027_ComponentClass></R027_ComponentClass>
       <R028_PureComponentClass></R028_PureComponentClass>
+      <R029_ShallowEqual></R029_ShallowEqual>
+      <R030_FunctionComponent contents="[THIS IS FunctionComponent]"></R030_FunctionComponent>
+      <R031_ReactHook></R031_ReactHook>
+      <R032_Fragments></R032_Fragments>
       */} 
 
-      <R029_ShallowEqual></R029_ShallowEqual>
+      <R033_ReturnMap></R033_ReturnMap>
 
     </div>    
   );
