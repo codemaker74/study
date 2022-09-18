@@ -1,4 +1,5 @@
 import React from 'react';
+
 function R030_FunctionComponent(props){
   let { contents } = props;
   return (
