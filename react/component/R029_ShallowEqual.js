@@ -1,5 +1,6 @@
 import React, { Component  } from 'react';
 import { shallowEqualArrays} from "shallow-equal";
+
 class R029_ShallowEqual extends Component  {
   constructor (props) {
     super(props);
