@@ -13,6 +13,7 @@ import R026_ForceUpdate from './R026_ForceUpdate';
 import R027_ComponentClass from './R027_ComponentClass';
 import R028_PureComponentClass from './R028_PureComponentClass';
 import R029_ShallowEqual from './R029_ShallowEqual';
+
 function App() {
   return (
     <div>
