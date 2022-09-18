@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import datatype from 'prop-types';
+
 class R018_PropsDatatype extends Component {
     render() {
       let {
