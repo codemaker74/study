@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import datatype from 'prop-types';
+
 class R019_PropsBoolean extends Component {
   render() {
     let {
